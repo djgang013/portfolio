@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Zakaria Loubaris | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -12,7 +12,7 @@
         <!-- Hero Section -->
         <header class="hero">
             <div class="container">
-                <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+                <h1>Hi, I'm <span class="accent">Zakaria Loubaris</span></h1>
                 <p class="subtitle">Full Stack Developer | Creating Digital Experiences</p>
                 <div class="button-group">
                     <a href="#contact" class="button primary">Get in Touch</a>
@@ -35,15 +35,14 @@
                             About Me
                         </h2>
                         <p>
-                            I'm a passionate developer with expertise in building modern web applications.
-                            With a strong foundation in both frontend and backend technologies,
-                            I create seamless digital experiences that solve real-world problems.
+                            I'm a passionate developer currently studying at EMSI, with expertise in building modern web applications.
+                            With a strong foundation in both frontend and backend technologies, I create seamless digital experiences that solve real-world problems.
                         </p>
                         <div class="social-links">
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
                                 <i data-lucide="github"></i>
                             </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
                                 <i data-lucide="linkedin"></i>
                             </a>
                             <a href="mailto:your.email@example.com">
@@ -63,14 +62,12 @@
                     Skills & Technologies
                 </h2>
                 <div class="skills-grid">
-                    <div class="skill-card">React</div>
-                    <div class="skill-card">JavaScript</div>
                     <div class="skill-card">HTML5</div>
                     <div class="skill-card">CSS3</div>
-                    <div class="skill-card">Node.js</div>
+                    <div class="skill-card">Laravel</div>
                     <div class="skill-card">Python</div>
+                    <div class="skill-card">Leaflet.js</div>
                     <div class="skill-card">Git</div>
-                    <div class="skill-card">MongoDB</div>
                 </div>
             </div>
         </section>
@@ -85,46 +82,10 @@
                 <div class="projects-grid">
                     <div class="project-card">
                         <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                             alt="Project 1">
+                             alt="Job Portal Project">
                         <div class="project-content">
-                            <h3>Project Title 1</h3>
-                            <p>A brief description of the project and the technologies used.</p>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i data-lucide="github"></i>
-                                    Code
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i data-lucide="external-link"></i>
-                                    Demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                             alt="Project 2">
-                        <div class="project-content">
-                            <h3>Project Title 2</h3>
-                            <p>A brief description of the project and the technologies used.</p>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i data-lucide="github"></i>
-                                    Code
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i data-lucide="external-link"></i>
-                                    Demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                             alt="Project 3">
-                        <div class="project-content">
-                            <h3>Project Title 3</h3>
-                            <p>A brief description of the project and the technologies used.</p>
+                            <h3>Job Portal</h3>
+                            <p>A Laravel-based platform where users can register, post job offers, and candidates can apply with their CVs.</p>
                             <div class="project-links">
                                 <a href="#" class="project-link">
                                     <i data-lucide="github"></i>
@@ -169,7 +130,7 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+                <p>© <span id="year"></span> Zakaria Loubaris. All rights reserved.</p>
             </div>
         </footer>
     </div>
